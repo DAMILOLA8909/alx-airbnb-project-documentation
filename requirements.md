@@ -24,31 +24,23 @@ The authentication module manages user registration, login, email verification, 
 
 **Register Request**
     ```json
-        {
-  "name": "John Doe",
+        {"name": "John Doe",
   "email": "john@example.com",
-  "password": "StrongPass123"
-    }
+  "password": "StrongPass123"}
 
 **Register Response**
     ```json
-    {
-  "message": "User registered successfully. Please verify your email."
-}
+    {"message": "User registered successfully. Please verify your email."}
 
 
 **Login Request**
     ```json
-    {
-  "email": "john@example.com",
-  "password": "StrongPass123"
-}
+    {"email": "john@example.com",
+  "password": "StrongPass123"}
 
 **Login Response**
     ```json
-    {
-  "token": "jwt_token_here"
-}
+    {"token": "jwt_token_here"}
 
 
 
@@ -97,20 +89,16 @@ This feature allows hosts to list, update, and delete properties.
 
 #### Create Booking Request
        ```json
-   {
-  "property_id": 101,
+   {"property_id": 101,
   "user_id": 12,
   "start_date": "2025-11-01",
-  "end_date": "2025-11-05"
-    }
+  "end_date": "2025-11-05"}
 
 #### Create Booking Response
     ```json
-    {
-  "booking_id": 5001,
+    {"booking_id": 5001,
   "status": "confirmed",
-  "message": "Booking created successfully"
-    }
+  "message": "Booking created successfully"}
 
 
 ### Validation Rules
