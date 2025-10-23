@@ -12,65 +12,65 @@ This document outlines the **core**, **technical**, and **non-functional** requi
 ## 1. Core Functionalities
 ### 👤 User Management
 
-    - **User Registration**: Sign up as guest or host.
+- **User Registration**: Sign up as guest or host.
 
-    - **User Authentication**: Secure login using email/password and OAuth (Google, Facebook).
+- **User Authentication**: Secure login using email/password and OAuth (Google, Facebook).
 
-    - **Profile Management**: Update profile photo, contact info, and preferences.
+- **Profile Management**: Update profile photo, contact info, and preferences.
 
 ### 🏠 Property Listings Management
 
-    - **Add Listings**: Host creates property listings with title, description, location, price, amenities, and availability.
+- **Add Listings**: Host creates property listings with title, description, location, price, amenities, and availability.
 
-    - **Edit/Delete Listings**: Host can update or remove property listings.
+- **Edit/Delete Listings**: Host can update or remove property listings.
 
-    - **Image Upload**: Upload property images to file storage.
+- **Image Upload**: Upload property images to file storage.
 
 ### 🔍 Search and Filtering
 
-    - **Search Properties**: By location, price, number of guests, or amenities.
+- **Search Properties**: By location, price, number of guests, or amenities.
 
-    - **Filtering**: Combine filters for refined results.
+- **Filtering**: Combine filters for refined results.
 
-    - **Pagination**: Manage large datasets efficiently.
+- **Pagination**: Manage large datasets efficiently.
 
 ### 📅 Booking Management
 
-    - **Create Bookings**: Guests can book available properties.
+- **Create Bookings**: Guests can book available properties.
 
-    - **Date Validation**: Prevent double bookings.
+- **Date Validation**: Prevent double bookings.
 
-    - **Cancel Bookings**: Guests/Hosts can cancel.
+- **Cancel Bookings**: Guests/Hosts can cancel.
 
-    - **Booking Status Tracking**: Pending, confirmed, canceled, or completed.
+- **Booking Status Tracking**: Pending, confirmed, canceled, or completed.
 
 ### 💳 Payment Integration
 
-    - **Payment Processing**: Guests make secure payments via Stripe/PayPal.
+- **Payment Processing**: Guests make secure payments via Stripe/PayPal.
 
-    - **Host Payouts**: Automated transfer after booking completion.
+- **Host Payouts**: Automated transfer after booking completion.
 
-    - **Currency Support**: Handle multiple currencies.
+- **Currency Support**: Handle multiple currencies.
 
 ### ⭐ Reviews and Ratings
 
-    - **Post Reviews**: Guests rate and review properties.
+- **Post Reviews**: Guests rate and review properties.
 
-    - **Host Response**: Hosts can reply to reviews.
+- **Host Response**: Hosts can reply to reviews.
 
-    - **Validation**: Link reviews to actual bookings.
+- **Validation**: Link reviews to actual bookings.
 
 ### 🔔 Notifications System
 
-    - **Email Notifications**: Booking confirmations, payment updates, cancellations.
+- **Email Notifications**: Booking confirmations, payment updates, cancellations.
 
-    - **In-App Alerts**: For hosts and guests.
+- **In-App Alerts**: For hosts and guests.
 
 ### 🧑‍💼 Admin Dashboard
 
-    - Monitor Users, Listings, Bookings, and Payments.
+- Monitor Users, Listings, Bookings, and Payments.
 
-    - Manage Reports and Disputes.
+- Manage Reports and Disputes.
 
 ---
 
@@ -115,21 +115,21 @@ Use these suggested categories and layout in Draw.io:
 
 **Nodes to Include:**
 
-    - **User Management**
+- **User Management**
 
-    - **Property Management**
+- **Property Management**
 
-    - **Booking System**
+- **Booking System**
 
-    - **Payment System**
+- **Payment System**
 
-    - **Review & Notification**
+- **Review & Notification**
 
-    - **Admin Panel**
+- **Admin Panel**
 
-    - **Database**
+- **Database**
 
-    - **API Gateway**
+- **API Gateway**
 
 #### Connections Example:
     Users ↔ Authentication ↔ API ↔ Database
